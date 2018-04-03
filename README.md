@@ -1,0 +1,2 @@
+# About Personal Website 
+This is my attempt to create a personal website where I attempt to showcase what I currently know and what I am [*learning*](https://www.learnenough.com) as I grow as a [*developer*](https://en.wikipedia.org/wiki/Web_developer). Feel free to check it out [*here*](https://tonydc1997.github.io/Personal-Website/)!
