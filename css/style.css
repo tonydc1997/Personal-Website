@@ -33,9 +33,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -48,8 +45,65 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+strong, b {
+  font-weight: bold;
+}
+em, i {
+  font-style: italic;
+}
+a img {
+  border: none;
+}
+/* END RESET */
+
+
 
 /* GENERAL STYLES */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', Helvetica, Arial, Sans-Serif;
+  text-align: center
+}
+h1 {
+  font-size: 7vw;
+}
+h3 {
+  font-size: 3vw;
+}
+h1, h3, p {
+  margin-bottom: 0.7em;
+}
+p {
+  line-height: 1.5;
+}
+
 /* HERO STYLES  */
+
+.header__nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  list-style: none;
+}
+.header__nav > li {
+  margin-right: 1.5em;
+}
+.header__nav > li ~ li {
+  padding-left: 1em;
+}
+.header__nav > li > a {
+  color: #6397b5;
+  text-decoration: none;
+}
+/* .hero__image {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0; 
+} */
+
+
 /* ABOUT STYLES */
+
 /* CONTACT STYLES */
