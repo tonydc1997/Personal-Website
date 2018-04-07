@@ -67,18 +67,18 @@ body {
 }
 h1 {
   font-size: 7vw;
+  margin-bottom: 2rem;
 }
 h3 {
   font-size: 3vw;
-}
-h1, h3, p {
-  margin-bottom: 0.7em;
+  margin-bottom: 1rem;
 }
 p {
   line-height: 1.5;
+  margin-bottom: 1.3rem;
 }
 
-/* HERO STYLES  */
+/* HEADER STYLES  */
 
 .header__nav {
   display: flex;
@@ -96,14 +96,30 @@ p {
   color: #6397b5;
   text-decoration: none;
 }
-/* .hero__image {
+
+/* HERO STYLES */
+.hero {
+  background: #343434;
+  background-image: url(https://www.pexels.com/photo/books-business-computer-connection-459654/); /* fallback */
+  background-image: url(https://www.pexels.com/photo/books-business-computer-connection-459654/), linear-gradient(#343434, #ccc); /* W3C */
+  background-size: cover;
   width: 100%;
   position: relative;
   top: 0;
   left: 0; 
-} */
+}
 
 
 /* ABOUT STYLES */
+
+/* WORK STYLES */
+.portfolio {
+  height: 50%;
+  transition: all 300ms;
+  width: 50%;
+}
+.portfolio:hover {
+  transform: scale(1);
+}
 
 /* CONTACT STYLES */
