@@ -1,1 +1,7 @@
 /* Your custom styles */
+
+/* NAV */
+.navbar-nav > li ~ li {
+ text-align: center;
+}
+
