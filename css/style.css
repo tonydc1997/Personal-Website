@@ -82,13 +82,17 @@ p {
 
 .nav {
   background: #343434;
+  list-style: none;
+  position: fixed;
+  width: 100%;
+}
+.nav__list {
   display: flex;
   flex-grow: 1;
   justify-content: flex-end;
-  list-style: none;
-}
-.nav__list {
   list-style-type: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 .nav__list > li {
   margin-right: 1.5em;
@@ -96,6 +100,9 @@ p {
 .nav__list > li ~ li {
   flex-direction: row;
   padding-left: 1em;
+}
+.nav__list-items {
+  font-size: 1.5rem;
 }
 .nav__list-items > a {
   color: #fff;
