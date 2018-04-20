@@ -98,15 +98,15 @@ p {
 }
 
 /* HERO STYLES */
-.hero {
+.hero--full {
   background: #343434;
-  background-image: url(https://www.pexels.com/photo/books-business-computer-connection-459654/); /* fallback */
-  background-image: url(https://www.pexels.com/photo/books-business-computer-connection-459654/), linear-gradient(#343434, #ccc); /* W3C */
   background-size: cover;
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0; 
+  height: 100vh;
+}
+
+.hero__home {
+  background-image: url(images/city-view.jpg);
+  background-position: center top;
 }
 
 
