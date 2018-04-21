@@ -1,7 +1,16 @@
 /* Your custom styles */
 
 /* NAV */
-.navbar-nav > li ~ li {
+.navbar-brand > img {
+  width: 30%;
+  height:30%;
+}
+.nav-item  {
  text-align: center;
+}
+.nav-item > a:hover {
+  background: #3F729B;
+  /* border-radius:  */
+  transition: 300s all;
 }
 
