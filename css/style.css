@@ -59,10 +59,33 @@ a img {
 
 
 /* GENERAL STYLES */
+h1 {
+  font-size: 1.625rem;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+ul {
+  padding-top: 1em;
+  padding-left: 2em;
+}
+.text--pop {
+  color: #929292;
+  font-size: 1.5em;
+}
+
 
 /* HOME */
+.hero {
+  background: #ccc;
+}
 
 /* ABOUT */
+#about {
+  padding: 1em 0 0 1em;
+  border-bottom: 2px solid #070707;
+}
 
 /* WORK  */
 
