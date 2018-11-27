@@ -1,0 +1,16 @@
+button {
+  padding: 20px;
+  background-color: #7FD8F7;
+  border-bottom: 1.5px solid #242424;
+  border-radius: 8px;
+  margin: 10px; 
+  font-size: 30px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+button:hover, button:active {
+  transform: scale(1.15);
+  background-color: #222; /* Gray */
+  color: white;
+}
