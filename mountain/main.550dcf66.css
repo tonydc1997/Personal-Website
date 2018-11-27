@@ -2688,7 +2688,7 @@ textarea.input-lg {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none
+    user-select: none;
 }
 
 .btn.active.focus,
@@ -2734,23 +2734,26 @@ fieldset[disabled] a.btn {
 .btn-default {
     color: #fff;
     background-color: transparent;
-    border-color: #fff
+    border-color: #fff;
+    transition: all .2s ease-in-out;
 }
 
 .btn-default.focus,
 .btn-default:focus {
     color: #fff;
     background-color: transparent;
-    border-color: #bfbfbf
+    border-color: #bfbfbf;
+    transform: scale(1.15);
 }
 
 .btn-default.active,
 .btn-default:active,
 .btn-default:hover,
 .open>.btn-default.dropdown-toggle {
-    color: #fff;
-    background-color: transparent;
-    border-color: #e0e0e0
+    color: #4458bf;
+    background-color: #fff;
+    border-color: #e0e0e0;
+    transform: scale(1.15);
 }
 
 .btn-default.active.focus,
@@ -2762,8 +2765,8 @@ fieldset[disabled] a.btn {
 .open>.btn-default.dropdown-toggle.focus,
 .open>.btn-default.dropdown-toggle:focus,
 .open>.btn-default.dropdown-toggle:hover {
-    color: #fff;
-    background-color: transparent;
+    color: #4458bf;
+    background-color: #fff;
     border-color: #bfbfbf
 }
 
@@ -5468,9 +5471,9 @@ button.close {
 }
 
 .btn {
-    -webkit-transition: all .1s linear;
-    -o-transition: all .1s linear;
-    transition: all .1s linear
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
 }
 
 .btn-primary:focus,
@@ -5521,9 +5524,9 @@ button.close {
 
 .navbar-default.active {
     border-color: transparent;
-    -webkit-transition: all .5s linear;
-    -o-transition: all .5s linear;
-    transition: all .5s linear;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
     background-image: url(./assets/images/wave-header.svg);
     background-position: 0 90%;
     background-repeat: no-repeat;
@@ -5636,9 +5639,9 @@ img.zoom-img {
 .social-round-icon {
     border: 1px solid #838383;
     border-radius: 50px;
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
 }
 
 .social-round-icon:hover {
