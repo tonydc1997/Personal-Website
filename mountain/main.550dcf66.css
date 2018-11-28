@@ -425,7 +425,7 @@ h6 {
     font-family: Martel, Times New Roman, Times, serif;
     font-weight: 900;
     line-height: 1.1;
-    color: #242424;
+    color: #6E51EF;
 }
 
 .h1 .small,
@@ -5579,7 +5579,7 @@ h1:after {
 .h2:after,
 h2:after {
     content: "...";
-    color: #242424;
+    color: #6E51EF;
     display: block;
 }
 
