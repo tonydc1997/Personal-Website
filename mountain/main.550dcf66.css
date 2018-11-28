@@ -425,7 +425,7 @@ h6 {
     font-family: Martel, Times New Roman, Times, serif;
     font-weight: 900;
     line-height: 1.1;
-    color: #1763e9
+    color: #242424;
 }
 
 .h1 .small,
@@ -2689,6 +2689,7 @@ textarea.input-lg {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    transition: all .2s ease-in-out;
 }
 
 .btn.active.focus,
@@ -2705,7 +2706,8 @@ textarea.input-lg {
 .btn:focus,
 .btn:hover {
     color: #fff;
-    text-decoration: none
+    text-decoration: none;
+    transform: scale(1.15);
 }
 
 .btn.active,
@@ -5577,13 +5579,13 @@ h1:after {
 .h2:after,
 h2:after {
     content: "...";
-    color: #1763e9;
-    display: block
+    color: #242424;
+    display: block;
 }
 
 .h3,
 h3 {
-    color: #000
+    color: #333;
 }
 
 .h4,
