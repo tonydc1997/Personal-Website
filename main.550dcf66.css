@@ -3770,7 +3770,8 @@ tbody.collapse.in {
 
 .nav>li>a {
     padding: 10px 15px;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
+    border-radius: 4px;
 }
 
 .nav>li>a:focus,
