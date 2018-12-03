@@ -1,2 +1,2 @@
 # About Personal Website 
-Welcome to my personal website, where I attempt to showcase what I currently know and what I am [*learning*](https://github.com/tonydc1997) as I grow as a Developer. Feel free to check it out [*here*](https://tonydc1997.github.io/Personal-Website/).
+Welcome to my personal website, where I attempt to showcase what I currently know and what I am [*learning*](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/learn/v4/t/lecture/12261684?start=30) as I grow as a Developer. Feel free to check it out [*here*](https://tonydc1997.github.io/Personal-Website/) and provide feedback. I'm always open to criticism – positive or negative – in an effort to improve at my craft.
