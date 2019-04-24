@@ -580,7 +580,8 @@ h6 {
 }
 
 p {
-    margin: 0 0 12.5px
+    margin: 0 0 12.5px;
+    color: #595959;
 }
 
 .lead {
