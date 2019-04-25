@@ -5586,7 +5586,7 @@ h1:after {
 .h2:after,
 h2:after {
     content: "______";
-    color: #2371FF;
+    color: #2585f5; /* #2371FF; */
     display: block
 }
 
