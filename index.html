@@ -113,7 +113,16 @@
             <div class="carousel-inner" role="listbox">
               <div class="item active">
                 <a href="https://app-smartbrain.herokuapp.com/" target="_blank" rel="noreferrer">
-                  <img class="img-responsive" src="./assets/images/SmartBrain.png" alt="First slide">
+                  <img 
+                    class="img-responsive"
+                    sizes="(max-width: 1349px) 100vw, 1349px"
+                    srcset="
+                    ./assets/images/SmartBrain--480w.png 480w,
+                    ./assets/images/SmartBrain--761w.png 761w,
+                    ./assets/images/SmartBrain--984w.png 984w,
+                    ./assets/images/SmartBrain--1173w.png 1173w,
+                    ./assets/images/SmartBrain--1349w.png 1349w"
+                    src="./assets/images/SmartBrain.png" alt="First slide">
                 </a>
                 <div class="carousel-caption card-shadow reveal">
                   
