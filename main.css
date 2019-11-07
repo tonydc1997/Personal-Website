@@ -110,6 +110,7 @@ b,
 optgroup,
 strong {
   font-weight: 700;
+  color: #334e68;
 }
 
 dfn {
@@ -573,7 +574,7 @@ h6 {
 
 p {
   margin: 0 0 12.5px;
-  color: #595959;
+  color: #829ab1;
 }
 
 .lead {
