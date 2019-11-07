@@ -110,7 +110,7 @@ b,
 optgroup,
 strong {
   font-weight: 700;
-  color: #334e68;
+  color: #243b53;
 }
 
 dfn {
@@ -547,12 +547,12 @@ h6 small {
 
 .h1,
 h1 {
-  font-size: 59px;
+  font-size: 62px;
 }
 
 .h2,
 h2 {
-  font-size: 31px;
+  font-size: 42px;
 }
 
 .h3,
@@ -574,7 +574,7 @@ h6 {
 
 p {
   margin: 0 0 12.5px;
-  color: #829ab1;
+  color: #465b70;
   line-height: 1.8;
 }
 
