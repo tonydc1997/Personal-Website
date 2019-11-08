@@ -4153,12 +4153,44 @@ tbody.collapse.in {
   font-size: 23px;
   line-height: 25px;
   height: 80px;
+  position: relative;
 }
 
-.navbar-brand:focus,
+/* .navbar-brand:focus,
 .navbar-brand:hover {
   text-decoration: none;
   transform: scale(1.12);
+} */
+.navbar-brand::before,
+.navbar-brand::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: white;
+  transform: scaleY(0);
+  transition: transform 0.5s ease;
+}
+.navbar-brand::before {
+  left: -12px;
+  top: 10px;
+  height: 80%;
+  transform-origin: center top;
+}
+.navbar-brand:hover::before {
+  transform-origin: center bottom;
+  transform: scaleY(1);
+}
+.navbar-brand::after {
+  right: -12px;
+  top: 10px;
+  height: 80%;
+  transform-origin: center bottom;
+}
+.navbar-brand:hover::after {
+  transform-origin: center top;
+  transform: scaleY(1);
 }
 
 .navbar-brand > img {
