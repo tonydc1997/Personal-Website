@@ -2868,7 +2868,6 @@ textarea.input-lg {
 .btn:hover {
   color: #fff;
   text-decoration: none;
-  transform: scale(1.15);
 }
 
 .btn.active,
@@ -2900,7 +2899,6 @@ fieldset[disabled] .btn {
   color: #fff;
   background-color: transparent;
   border-color: #bfbfbf;
-  transform: scale(1.15);
 }
 
 .btn-default.active,
@@ -2910,7 +2908,6 @@ fieldset[disabled] .btn {
   color: #4458bf;
   background-color: #fff;
   border-color: #e0e0e0;
-  transform: scale(1.15);
 }
 
 .btn-default.active.focus,
@@ -4156,11 +4153,6 @@ tbody.collapse.in {
   position: relative;
 }
 
-/* .navbar-brand:focus,
-.navbar-brand:hover {
-  text-decoration: none;
-  transform: scale(1.12);
-} */
 .navbar-brand::before,
 .navbar-brand::after {
   content: "";
